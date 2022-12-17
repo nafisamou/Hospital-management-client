@@ -1,0 +1,38 @@
+#app { height: 100% }
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: white;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+  margin-top:200px ;
+}
+
+.swiper {
+  width: 80%;
+  height: 700px;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 98px;
+  /* background: rgb(250, 235, 235); */
+
+  /* Center slide text vertically */
+  
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  /* height: 100%; */
+  object-fit: cover;
+ 
+}

@@ -1,12 +1,23 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Carousel1 from './pages/Carousel/Carousel1';
+import Carousel2 from './pages/Carousel/Carousel2';
+import Carousel from './pages/Home/Carousel';
+// import ReactDOM from "react-dom";
+
+// eslint-disable-next-line
+// import "swiper/css/bundle";
+// import "./";
+
 
 function App() {
   return (
-    <div className="App">
-     <h1> Welcome webCracker</h1>
-     <h1> Fork by Nafisa</h1>
-     <h3>Again Fork</h3>
+    <div className="w-9/11 mx-auto">
+  
+     {/* <Carousel1></Carousel1> */}
+     <Carousel></Carousel>
+     {/* <Carousel2></Carousel2> */}
+
     </div>
   );
 }

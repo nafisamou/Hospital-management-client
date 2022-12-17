@@ -1,0 +1,15 @@
+.carousel{
+width: 80%;
+height: 700px;
+background-color: black;
+margin:auto;
+/* margin-bottom: 40px; */
+}
+.carouselInner{
+height: 100%;
+width: 100%;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+display: flex;
+}
